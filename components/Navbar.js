@@ -23,7 +23,7 @@ class Navbar extends Component {
 
                 </ul>
             </nav>
-
+            //todo mobile navbar
         );
     }
 }
