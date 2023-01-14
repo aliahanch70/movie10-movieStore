@@ -7,14 +7,17 @@ export default function Home() {
   return (
       <>
           <Navbar/>
-          {MoviesList.map((movies)=>(
-              <Card
-                  key={movies.id}
-                  img={movies.img}
-                  imdb={movies.imdb}
-              />
-          ))}
-          <p>sxs</p>
+          <div className="flex flex-wrap">
+              {MoviesList.map((movies)=>(
+                  <div className=" ">
+                      <Card
+                          key={movies.id}
+                          img={movies.img}
+                          imdb={movies.imdb}
+                      />
+                  </div>
+              ))}
+          </div>
 
       </>
   )
