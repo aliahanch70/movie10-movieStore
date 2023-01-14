@@ -11,7 +11,7 @@ export default function Home() {
               {MoviesList.map((movies)=>(
                   <div className=" ">
                       <Card
-                          key={movies.id}
+                          key={movies.imdb}
                           img={movies.img}
                           imdb={movies.imdb}
                       />
