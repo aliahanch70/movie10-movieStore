@@ -13,7 +13,7 @@ const Post = () => {
 
 
     async function fMovie() {
-        await fetch('http://www.omdbapi.com/?i=' + ttid+"&apikey=221cf49a",options)
+        await fetch('https://www.omdbapi.com/?i=' + ttid+"&apikey=221cf49a",options)
             .then(response => response.json())
             .then(response => {
                 console.log(response);
