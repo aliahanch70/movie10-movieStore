@@ -155,31 +155,31 @@ export const MoviesList = [
     //     imdb:"tt13143964",
     //     Type: "movie"
     // },
-    // {
-    //     id:12,
-    //     name:"",
-    //     img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbFYkEvmamVDYp0IG-IhThlqu10HrIubLicLBnwg_5P9TBGr18",
-    //     discus:"",
-    //     imdb:"tt7569576",
-    //     Type: "series"
-    // },
-    // {
-    //     id:11,
-    //     name:"",
-    //     img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSudXMPDdUNZJXa_MF38nFic5bSd_DunfwoKw81xapTFKpTIOYZ",
-    //     discus:"",
-    //     imdb:"tt7846844",
-    //     Type: "movie"
-    //
-    // },
-    // {
-    //     id:10,
-    //     name:"Tent",
-    //     img:"https://upload.wikimedia.org/wikipedia/fa/thumb/1/14/Tenet_movie_poster.jpg/220px-Tenet_movie_poster.jpg",
-    //     discus:"انگاشته یا تِنِت (به انگلیسی: Tenet) یک فیلم آمریکایی در ژانر علمی تخیلی اکشن دلهره‌آور[۴] به نویسندگی، تهیه‌کنندگی و کارگردانی کریستوفر نولان است که در سال ۲۰۲۰ اکران شد. جان دیوید واشنگتن، الیزابت دبیکی، ، کنت برانا و آرون تایلر-جانسون ستارگان فیلم هستند. داستان فیلم دربارهٔ دو جاسوس حرفه‌ای است که در راه جلوگیری از وقوع جنگ جهانی سوم درگیر یک ماجرای پیچیده می‌شوند.",
-    //     imdb:"tt6723592",
-    //     Type: "movie"
-    // },
+    {
+        id:12,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbFYkEvmamVDYp0IG-IhThlqu10HrIubLicLBnwg_5P9TBGr18",
+        discus:"",
+        imdb:"tt7569576",
+        Type: "series"
+    },
+    {
+        id:11,
+        name:"",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSudXMPDdUNZJXa_MF38nFic5bSd_DunfwoKw81xapTFKpTIOYZ",
+        discus:"",
+        imdb:"tt7846844",
+        Type: "movie"
+
+    },
+    {
+        id:10,
+        name:"Tent",
+        img:"https://upload.wikimedia.org/wikipedia/fa/thumb/1/14/Tenet_movie_poster.jpg/220px-Tenet_movie_poster.jpg",
+        discus:"انگاشته یا تِنِت (به انگلیسی: Tenet) یک فیلم آمریکایی در ژانر علمی تخیلی اکشن دلهره‌آور[۴] به نویسندگی، تهیه‌کنندگی و کارگردانی کریستوفر نولان است که در سال ۲۰۲۰ اکران شد. جان دیوید واشنگتن، الیزابت دبیکی، ، کنت برانا و آرون تایلر-جانسون ستارگان فیلم هستند. داستان فیلم دربارهٔ دو جاسوس حرفه‌ای است که در راه جلوگیری از وقوع جنگ جهانی سوم درگیر یک ماجرای پیچیده می‌شوند.",
+        imdb:"tt6723592",
+        Type: "movie"
+    },
      {
          id:9,
          name:"Mulan",

@@ -7,15 +7,14 @@ export default function Home() {
   return (
       <>
           <Navbar/>
-          <div className="flex flex-wrap">
-              {MoviesList.map((movies)=>(
-                  <div className=" ">
+          <div className="flex flex-wrap justify-center">
+              {MoviesList.map((movies, index)=>(
+                  <a className=" " key={index} href={movies.imdb}>
                       <Card
-                          key={movies.imdb}
                           img={movies.img}
                           imdb={movies.imdb}
                       />
-                  </div>
+                  </a>
               ))}
           </div>
 
