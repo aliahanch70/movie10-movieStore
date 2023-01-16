@@ -2,7 +2,6 @@ import React, {useEffect , useState} from 'react';
 
 function Card (props){
     const [movie , setMovie] = useState([]);
-    const [imdb , setImdb] = useState([]);
     const [fe , setFe] = useState(0);
 
     const options = {
