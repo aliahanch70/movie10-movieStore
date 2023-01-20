@@ -5,7 +5,7 @@ function Card (props){
     const [detail , setDetail] = useState([]);
 
     return  (
-        <div className="   p-8  m-4 bg-blue-500 h-[450] overflow-hidden h-auto rounded shadow  sm:inline-flex  block">
+        <div className=" content-center   p-8  m-4 bg-blue-500 h-[450] overflow-hidden h-auto rounded shadow  sm:inline-flex  inline-block">
 
             <img src={props.movieDetail.Poster}/>
             <div className="flex-row m-4 ">
