@@ -10,7 +10,7 @@ function Navbar(props) {
     };
     const ex= nav ? <MobileNav/> : <></>;
     return (
-        <nav className="z-40 p-5 bg-[#4C1D95]  shadow md:flex md:items-center md:justify-between">
+        <nav className="z-40 p-5 bg-gray-800  shadow md:flex md:items-center md:justify-between">
             <div>
                     <span className="text-2xl text-[#0EA5E9]">
                         Movie 10

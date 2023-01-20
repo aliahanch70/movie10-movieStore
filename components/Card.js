@@ -23,7 +23,7 @@ function Card (props){
         setFe(1);
     }
     return  (
-            <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-blue-800 h-[450] overflow-hidden h-auto rounded shadow">
+            <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-[#363636] h-[450] overflow-hidden h-auto rounded shadow">
                 <div className="center items-center">
                     <img className="overflow-hidden w-100 h-[450]" src={movie.Poster}/>
                     <div className="flex items-center justify-between p-3 rounded">
