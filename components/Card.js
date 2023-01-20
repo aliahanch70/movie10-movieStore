@@ -1,4 +1,4 @@
-import React, {useEffect , useState} from 'react';
+import { useState} from 'react';
 
 function Card (props){
     const [movie , setMovie] = useState([]);
@@ -14,13 +14,13 @@ function Card (props){
             .then(response => response.json())
             .then(response => {
                 console.log(response);
-                setMovie(response)
+                setMovie(response);
 
             })
             .catch(err => console.error(err));
     }
     if(fe === 0){ fMovie()
-        setFe(1)
+        setFe(1);
     }
     return  (
             <div className="w-[250px] m-4 bg-blue-800 h-[450] overflow-hidden h-auto rounded shadow">

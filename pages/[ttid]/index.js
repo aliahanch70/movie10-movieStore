@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import {useState} from "react"
 import Detail from "../../components/Detail";
+import Navbar from "../../components/Navbar";
 
 const Post = ({data}) => {
     const router = useRouter()
@@ -30,12 +31,13 @@ const Post = ({data}) => {
     }
     console.log(data);
     return( <>
-            <div className="items-center">
-                ssd: {movie.Title}
+            <Navbar/>
+            <div className="items-center flex flex-col sm:flex">
+
                 <Detail
                     movieDetail={movie}
                 />
-                <img src={movie.Poster}/>
+
             </div>
     </>
     )
