@@ -6,6 +6,7 @@ import {HiOutlineHome} from "@react-icons/all-files/hi/HiOutlineHome";
 import { TbMovie } from "react-icons/tb";
 
 import {RiMenuUnfoldLine} from "@react-icons/all-files/ri/RiMenuUnfoldLine";
+import Link from "next/link";
 
 
 
@@ -18,10 +19,10 @@ function MobileNav(props) {
 
 
 
-                <SideBatIcon icon={<RiMenuUnfoldLine size="50"/>} />
-                <SideBatIcon icon={<BiMoviePlay size="50"/>} />
-                <SideBatIcon icon={<TbMovie size="50"/>} />
-                <SideBatIcon icon={<HiOutlineHome size="50"/>} />
+                <Link href="#"> <SideBatIcon icon={<RiMenuUnfoldLine size="50"/>} /> </Link>
+                <Link href="#"> <SideBatIcon icon={<BiMoviePlay size="50"/>} /></Link>
+                <Link href="#"><SideBatIcon icon={<TbMovie size="50"/>} /></Link>
+                <Link href="/"><SideBatIcon icon={<HiOutlineHome size="50"/>} /></Link>
             </div>
         </div>
     );

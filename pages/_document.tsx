@@ -3,10 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head >
-          <title > movie app</title>
-      </Head>
-
+      <Head />
       <body className="bg-[#27272e]">
         <Main />
         <NextScript />

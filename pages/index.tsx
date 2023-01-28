@@ -1,8 +1,6 @@
-import Head from 'next/head'
 import Navbar from '../components/Navbar'
-import {MoviesList} from '../Data_movie'
+import {MoviesList} from '@/Data_movie'
 import Card from '../components/Card'
-import { useRouter} from "next/router";
 import Link from "next/link";
 
 export default function Home() {
