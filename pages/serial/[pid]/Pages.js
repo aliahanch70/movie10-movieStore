@@ -8,19 +8,31 @@ const Pages = (props) => {
     const pid2=Number(pid);
     let pageP2;
     let pageP3;
-
+    let pageP4
     if(props.movieNumber.length/12 >= pid2){
-        pageP2=<Link href={"/serial/" + (pid2+1)}><p>{pid2+1}</p></Link>
+        pageP2=<Link href={"/serial/" + (pid2+1)}><p  className="bg-red-500 p-3 rounded shadow hover:bg-red-600">{pid2+1}</p></Link>
     }
-    if(props.movieNumber/12 >= pid+1){
-        pageP3=<Link href={"/serial/" + (pid2+2)}><p>{pid2+2}</p></Link>
+    if(props.movieNumber.length/12 >= pid2+1){
+        pageP3=<Link href={"/serial/" + (pid2+2)}><p className="bg-red-500 p-3 rounded shadow hover:bg-red-600">{pid2+2}</p></Link>
+    }
+    if( pid2!==1 ){
+        pageP4=<Link href={"/serial/" + (pid2-1)}><p className="bg-red-500 p-3 rounded shadow hover:bg-red-600">{pid2-1}</p></Link>
     }
 
     return (
-        <div>
+        <div className=" p-2 flex overflow-hidden justify-evenly ">
 
-            <Link href={"/serial/" + pid2}><p>{pid2}</p></Link>
-            {pageP2}{pageP3}
+                {pageP4}
+
+            <Link href={"/serial/" + pid2}><p className="bg-red-500 p-3 rounded shadow hover:bg-red-600">{pid2}</p></Link>
+
+            {pageP2}
+
+            {pageP3}
+
+
+
+
         </div>
     );
 

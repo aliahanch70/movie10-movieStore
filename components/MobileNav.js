@@ -20,8 +20,8 @@ function MobileNav(props) {
 
 
                 <Link href="#"> <SideBatIcon icon={<RiMenuUnfoldLine size="50"/>} /> </Link>
-                <Link href="#"> <SideBatIcon icon={<BiMoviePlay size="50"/>} /></Link>
-                <Link href="#"><SideBatIcon icon={<TbMovie size="50"/>} /></Link>
+                <Link href="/1"> <SideBatIcon icon={<BiMoviePlay size="50"/>} /></Link>
+                <Link href="/serial/1"><SideBatIcon icon={<TbMovie size="50"/>} /></Link>
                 <Link href="/"><SideBatIcon icon={<HiOutlineHome size="50"/>} /></Link>
             </div>
         </div>

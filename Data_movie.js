@@ -1,10 +1,80 @@
 export const MoviesList = [
     {
-        id:34,
+        id:45,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt13207736",
+        Type: "series"
+    },{
+        id:44,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt5057054",
+        Type: "series"
+    },{
+        id:43,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt7645192",
+        Type: "series"
+    },{
+        id:42,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt10048342",
+        Type: "series"
+    },{
+        id:41,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt9288030",
+        Type: "series"
+    },{
+        id:40,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt1190634",
+        Type: "series"
+    },{
+        id:39,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt7767422",
+        Type: "series"
+    },{
+        id:38,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt9319668",
+        Type: "series"
+    },{
+        id:37,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt8291284",
+        Type: "series"
+    },{
+        id:36,
         name:"",
         img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
         discus:"",
         imdb:"tt12762512",
+        Type: "series"
+    },{
+        id:35,
+        name:"",
+        img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTIeKgfp-yyjYJQy40WH-Ly_NUn3oKjJGKJF47QqzrWknuCGnh",
+        discus:"",
+        imdb:"tt7335184",
         Type: "series"
     },{
         id:33,

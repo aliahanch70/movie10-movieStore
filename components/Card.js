@@ -1,10 +1,9 @@
 import {useEffect, useState} from 'react';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
-import Post from "@/pages/[ttid]";
+import Post from "@/pages/d/[ttid]";
 
-function Card (props,data){
+function Card (props){
     const [movie , setMovie] = useState([]);
-    const [fe , setFe] = useState(props.imdb);
 
     const options = {
         method: 'GET'
@@ -35,8 +34,7 @@ function Card (props,data){
     // if(fe === 0){ fMovie()
     //     setFe(1);
     // }
-
-
+    
     return  (
             <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-[#363636] h-[450] overflow-hidden h-auto rounded shadow">
                 <div className="center items-center">
@@ -47,7 +45,6 @@ function Card (props,data){
                     </div>
                 </div>
             </div>
-
 );
 }
 
