@@ -8,7 +8,7 @@ function Navbar(props) {
     const [nav , setNav] = useState(false);
     if(nav){
         console.log("sad");
-    };
+    }
     const ex= nav ? <MobileNav/> : <></>;
     return (
         <nav className="z-40 p-5 bg-gray-800  shadow md:flex md:items-center md:justify-between">

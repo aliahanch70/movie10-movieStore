@@ -8,8 +8,12 @@ import Pages from "./Pages";
 import Post from "../../d/[ttid]";
 import NewPage from "./NewPage";
 
-export default function Page(props) {
+import Skeleton from '@mui/material/Skeleton';
 
+
+
+export default function Page(props) {
+    const item=0;
     const router = useRouter()
     const { pid } = router.query;
     const pid2=Number(pid);
@@ -37,18 +41,25 @@ export default function Page(props) {
                             img={movies.img}
                             imdb={movies.imdb}
                         />
-                    </Link>
+
+
+                   </Link>
                 })}
 
             </div>
+
+
+
             <div className=" m-3 p-1 text-amber-50">
                 <Pages
                     pageId={pid}
                     movieNumber={numberSeries}
                 />
 
+
                 <NewPage/>
             </div>
+
         </>
     )
 }

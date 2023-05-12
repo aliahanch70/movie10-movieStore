@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+
 import Post from "@/pages/d/[ttid]";
+import Skeleton from "@mui/material/Skeleton";
 
 function Card (props){
     const [movie , setMovie] = useState([]);
@@ -38,10 +39,26 @@ function Card (props){
     return  (
             <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-[#363636] h-[450] overflow-hidden h-auto rounded shadow">
                 <div className="center items-center">
-                    <img className="overflow-hidden w-100 h-[450]" src={movie.Poster}/>
+
+                    {
+                        movie.Poster ? (
+                            <img  className="overflow-hidden w-100 h-[450]" src={movie.Poster}/>
+                        ) : (
+                            <Skeleton variant="rectangular" width={250} height={400} />
+                        )
+                    }
+
                     <div className="flex items-center justify-between p-3 rounded">
-                        <h3 className="sm:font-medium font-normal font-sans  text-amber-50">{movie.Title}</h3>
+
+                        {
+                            movie.Title ? (
+                                <h3 className="sm:font-medium font-normal font-sans  text-amber-50">{movie.Title}</h3>
+                            ) : (
+                                <Skeleton variant="text" width={220} />
+                            )
+                        }
                         <h3 className="text-amber-300 m-0 ">{movie.imdbRating}</h3>
+
                     </div>
                 </div>
             </div>
