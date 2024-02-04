@@ -10,7 +10,7 @@ function Card (props){
     },[props.movieDetail])
 
     return  (
-        <div className=" content-center text-amber-50   p-8  m-4 bg-[#363636] h-[450] overflow-hidden h-auto rounded shadow  sm:inline-flex  inline-block">
+        <div className="flex  text-amber-50   p-8  m-4 bg-[#363636] overflow-hidden h-auto rounded shadow  sm:flex-row flex-col">
 
             <img src={detail.Poster}/>
             <div className="flex-row m-4 ">

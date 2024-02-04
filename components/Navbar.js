@@ -18,21 +18,21 @@ function Navbar(props) {
                     </span>
             </div>
 
-            <ul className=" right-0 md:flex md:items-center md:opacity-100 opacity-0 md:w-auto md:py-0 py-4 absolute md:pl-0 pl-7">
+            <ul className=" right-0 md:flex md:items-center md:opacity-100 opacity-0 md:w-auto md:py-0 py-4 absolute md:pl-0 pl-7 z-20">
                 <li className="mx-4 my-6 md:my-0 ">
-                    <Link href="#" className="text-xl text-[#0EA5E9] hover:text-cyan-300 duration-500">Home</Link>
+                    <Link href="/" className="text-xl text-[#0EA5E9] hover:text-cyan-300 duration-500">Home</Link>
                 </li >
                 <li className="mx-4 my-6 md:my-0">
                     <Link href="/serial/1" className="text-xl text-[#0EA5E9] hover:text-cyan-300 duration-500">Serials</Link>
                 </li>
                 <li className="mx-4 my-6 md:my-0">
-                    <Link href="#" className="text-xl text-[#0EA5E9] hover:text-cyan-300 duration-500">Movies</Link>
+                    <Link href="/1" className="text-xl text-[#0EA5E9] hover:text-cyan-300 duration-500">Movies</Link>
                 </li>
 
             </ul>
             <div className="duration-75 right-0 flex items-center md:opacity-0 w-auto top-0 p 6 absolute m-4">
                 <ul>
-                    <li className="duration-75  my-0" onClick={()=>setNav(!nav)}><RiMenuFoldLine size="50"/></li>
+                    <li className="duration-75  my-0 z-0" onClick={()=>setNav(!nav)}><RiMenuFoldLine size="50"/></li>
                 </ul>
             </div>
             <div className="">

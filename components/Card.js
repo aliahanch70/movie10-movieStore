@@ -37,7 +37,7 @@ function Card (props){
     // }
     
     return  (
-            <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-[#363636] h-[450] overflow-hidden h-auto rounded shadow">
+            <div className="w-[170px] sm:w-[250px] sm:m-3 m-2 bg-[#363636]  overflow-hidden h-auto rounded shadow">
                 <div className="center items-center">
 
                     {
