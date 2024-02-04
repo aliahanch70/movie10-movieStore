@@ -5,10 +5,7 @@ import Link from "next/link";
 import Footer from '../components/Footer'
 import React from "react";
 
-
 export default function Home() {
-
-
   return (
       <>
           <Navbar/>
@@ -22,8 +19,6 @@ export default function Home() {
           <div className="flex flex-wrap justify-center">
 
               <div className="carousel scroll-smooth w-full rounded-box">
-
-
                   {MoviesList.filter(x=>x.Type==="movie").slice(1,8).map((movies, index)=>(
                       <Link className="carousel-item " key={index} href={"/d/"+movies.imdb}>
                           <Card
@@ -32,8 +27,6 @@ export default function Home() {
                           />
                       </Link>
                   ))}
-
-
               </div>
           </div>
           <Footer/>
